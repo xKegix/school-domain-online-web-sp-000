@@ -21,8 +21,10 @@
 		@roster[grade]
 	end
 
-
+	def sort
+		@roster.each do |grade, student|
+			student.sort!
 
 	end
-
+end
 	school = School.new("Bayside High School")
